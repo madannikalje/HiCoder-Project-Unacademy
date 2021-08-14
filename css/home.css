@@ -69,10 +69,18 @@ body {
   color: white;
   background: #08BD80;
   border: none !important;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-  padding-top: 0.7rem;
-  padding-bottom: 0.7rem;
+  padding-right: 1.4rem;
+  padding-left: 1.4rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  font-size: 1.1rem;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.root .heading .navbar nav .login button:hover {
+  -webkit-transform: translate(0px, -10px);
+  transform: translate(0px, -10px);
 }
 
 .root .heading .heading-info {
@@ -90,6 +98,7 @@ body {
 
 .root .heading .heading-info .heading-title {
   padding-top: 6rem;
+  padding-left: 1rem;
   font-size: 2.9rem;
   color: #646464;
 }
@@ -115,6 +124,8 @@ body {
   border-radius: 19px;
   background-color: white;
   background-position: right bottom;
+  -webkit-box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.11);
+          box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.11);
 }
 
 .root .heading .heading-info .heading-cards .card-1 .card-content {
@@ -153,6 +164,13 @@ body {
   border-radius: 5px;
   color: white;
   background-color: #08BD80;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.root .heading .heading-info .heading-cards .card-1 .card-content button:hover {
+  -webkit-transform: translate(0px, -10px);
+  transform: translate(0px, -10px);
 }
 
 .root .heading .heading-info .heading-cards .card-2 {
@@ -163,6 +181,8 @@ body {
   border-radius: 19px;
   background-color: white;
   background-position: right bottom;
+  -webkit-box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.11);
+          box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.11);
 }
 
 .root .heading .heading-info .heading-cards .card-2 .card-content {
@@ -201,5 +221,111 @@ body {
   border-radius: 5px;
   color: white;
   background-color: #08BD80;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.root .heading .heading-info .heading-cards .card-2 .card-content button:hover {
+  -webkit-transform: translate(0px, -10px);
+  transform: translate(0px, -10px);
+}
+
+.root .features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 18rem;
+}
+
+.root .features .feature {
+  height: 22rem;
+  width: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.root .features .feature img {
+  border-radius: 14px;
+}
+
+.root .features .feature #feature-title {
+  padding-top: 2rem;
+  font-style: bold;
+  font-size: 1.5rem;
+  color: #3a3a3a;
+}
+
+.root .features .feature #feature-disc {
+  padding-top: .6rem;
+  font-size: .9rem;
+  color: #222222;
+}
+
+.root .get-app-block {
+  margin-top: 10rem;
+  height: 30rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.root .get-app-block .get-app-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 23rem;
+}
+
+.root .get-app-block .get-app-links #get-app-heading {
+  font-size: 2.5rem;
+}
+
+.root .get-app-block .get-app-links #get-app-disc {
+  padding-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.root .get-app-block .get-app-links .actual-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 2.8rem;
+}
+
+.root .get-app-block .get-app-links #app-store-link {
+  width: 141px;
+  height: 47px;
 }
 /*# sourceMappingURL=home.css.map */
