@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+.root{
+    
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+
+    .heading{
+        width: 100%;
+        height:40rem;
+        background: url("../resources/home/home_heading.svg");
+        background-size: cover;
+        
+
+        .navbar{
+
+            padding: .8rem;
+            align-items: center;
+            nav{
+                display: flex;
+                flex-direction: row;
+                justify-content:space-between;
+                margin-top: 1rem;
+    
+                .logo{
+    
+                }
+                .login{   
+                    padding-right: 1.5rem;
+    
+                    button{
+                    
+                        $button-side-padding: 1.5rem;
+                        $button-v-padding: .7rem;
+                        border-radius: 7px;
+                        color: white;
+                        background: forestgreen;
+                        border: none !important;
+                        padding-right: $button-side-padding;
+                        padding-left: $button-side-padding;
+                        padding-top: $button-v-padding;
+                        padding-bottom: $button-v-padding;
+                    }
+                }
+            }
+        }
+
+        .heading-info{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-evenly;
+            .heading-title{
+                padding-top:2rem;
+                font-size: 2.9rem;
+                color: rgb(100, 100, 100);
+            }
+
+            @mixin headingCards {
+                background-color: aqua;
+                height:20em;
+                width:34em;
+                border-radius: 19px;
+            }
+
+            .heading-cards{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                padding-top: 6rem;
+                .card-1{
+                    @include headingCards;
+                }
+                .card-2{
+                    @include headingCards;
+                }
+            }
+        }
+    }
+}
