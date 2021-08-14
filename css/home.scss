@@ -35,9 +35,7 @@ body{
                 justify-content:space-between;
                 margin-top: 1rem;
     
-                .logo{
-    
-                }
+            
                 .login{   
                     padding-right: 1.5rem;
     
@@ -47,7 +45,7 @@ body{
                         $button-v-padding: .7rem;
                         border-radius: 7px;
                         color: white;
-                        background: forestgreen;
+                        background: #08BD80;
                         border: none !important;
                         padding-right: $button-side-padding;
                         padding-left: $button-side-padding;
@@ -63,27 +61,65 @@ body{
             flex-direction: column;
             justify-content:space-evenly;
             .heading-title{
-                padding-top:2rem;
+                padding-top:6rem;
                 font-size: 2.9rem;
                 color: rgb(100, 100, 100);
             }
 
             @mixin headingCards {
-                background-color: aqua;
-                height:20em;
+                height:22em;
                 width:34em;
                 border-radius: 19px;
-            }
+                background-color: rgb(255, 255, 255);
+                background-position: right bottom;
+                .card-content{
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 1rem;
+                    padding-top: 1.5rem;
 
+                    .card-links{
+                        
+                        padding-top: 2rem;
+                        span{
+                            color: #08BD80;
+                            text-decoration: none;  
+                            font-size: .95rem;        
+                        }
+                        a:link{
+                            text-decoration: none;
+                        }
+                    }
+
+                    button{
+                        width:10rem;
+                        padding-top: .7rem;
+                        padding-bottom: .7rem;
+                        margin-top: 2rem;
+                        font-size: 16px;
+                        border: none;
+                        border-radius:5px;
+                        color: white;
+                        background-color:#08BD80;
+                    }
+                    
+                }
+            }
+            
             .heading-cards{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
-                padding-top: 6rem;
+                padding-top: 9rem;
+
                 .card-1{
+                    background:url("../resources/home/card1.svg");
+                    background-repeat: no-repeat;
                     @include headingCards;
                 }
                 .card-2{
+                    background:url("../resources/home/card2.svg");
+                    background-repeat: no-repeat;
                     @include headingCards;
                 }
             }

@@ -67,7 +67,7 @@ body {
 .root .heading .navbar nav .login button {
   border-radius: 7px;
   color: white;
-  background: forestgreen;
+  background: #08BD80;
   border: none !important;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
@@ -89,7 +89,7 @@ body {
 }
 
 .root .heading .heading-info .heading-title {
-  padding-top: 2rem;
+  padding-top: 6rem;
   font-size: 2.9rem;
   color: #646464;
 }
@@ -104,20 +104,102 @@ body {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-top: 6rem;
+  padding-top: 9rem;
 }
 
 .root .heading .heading-info .heading-cards .card-1 {
-  background-color: aqua;
-  height: 20em;
+  background: url("../resources/home/card1.svg");
+  background-repeat: no-repeat;
+  height: 22em;
   width: 34em;
   border-radius: 19px;
+  background-color: white;
+  background-position: right bottom;
+}
+
+.root .heading .heading-info .heading-cards .card-1 .card-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+}
+
+.root .heading .heading-info .heading-cards .card-1 .card-content .card-links {
+  padding-top: 2rem;
+}
+
+.root .heading .heading-info .heading-cards .card-1 .card-content .card-links span {
+  color: #08BD80;
+  text-decoration: none;
+  font-size: .95rem;
+}
+
+.root .heading .heading-info .heading-cards .card-1 .card-content .card-links a:link {
+  text-decoration: none;
+}
+
+.root .heading .heading-info .heading-cards .card-1 .card-content button {
+  width: 10rem;
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  margin-top: 2rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #08BD80;
 }
 
 .root .heading .heading-info .heading-cards .card-2 {
-  background-color: aqua;
-  height: 20em;
+  background: url("../resources/home/card2.svg");
+  background-repeat: no-repeat;
+  height: 22em;
   width: 34em;
   border-radius: 19px;
+  background-color: white;
+  background-position: right bottom;
+}
+
+.root .heading .heading-info .heading-cards .card-2 .card-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+}
+
+.root .heading .heading-info .heading-cards .card-2 .card-content .card-links {
+  padding-top: 2rem;
+}
+
+.root .heading .heading-info .heading-cards .card-2 .card-content .card-links span {
+  color: #08BD80;
+  text-decoration: none;
+  font-size: .95rem;
+}
+
+.root .heading .heading-info .heading-cards .card-2 .card-content .card-links a:link {
+  text-decoration: none;
+}
+
+.root .heading .heading-info .heading-cards .card-2 .card-content button {
+  width: 10rem;
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  margin-top: 2rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #08BD80;
 }
 /*# sourceMappingURL=home.css.map */
