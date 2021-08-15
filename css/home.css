@@ -340,11 +340,11 @@ body {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: gray;
   height: 40rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 8rem;
 }
 
 .root .stats .left-side {
@@ -405,18 +405,113 @@ body {
           justify-content: center;
 }
 
-.root .stats .right-side .columns .card {
+.root .stats .right-side .columns #card1 {
   background-color: white;
   height: 11.5rem;
   width: 17.5rem;
   margin-bottom: 1rem;
-  background: url("../resources/home/highlightgoals_96d24a04e7_a8e8de225d.svg");
   background-repeat: no-repeat;
   border-radius: 15px;
+  background: url("../resources/home/highlightgoals_96d24a04e7_a8e8de225d.svg");
 }
 
-.root .stats .right-side .columns .card #count {
+.root .stats .right-side .columns #card1 #heading {
+  padding-top: 2rem;
+  font-size: 1.1rem;
+  color: #292828;
+}
+
+.root .stats .right-side .columns #card1 #count {
   font-size: 2rem;
   padding-top: .7rem;
+  color: #413f3f;
+}
+
+.root .stats .right-side .columns #card2 {
+  background-color: white;
+  height: 11.5rem;
+  width: 17.5rem;
+  margin-bottom: 1rem;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background: url("../resources/home/highlightlive_b05ed1f073_a8042bd7a8.svg");
+}
+
+.root .stats .right-side .columns #card2 #heading {
+  padding-top: 2rem;
+  font-size: 1.1rem;
+  color: #292828;
+}
+
+.root .stats .right-side .columns #card2 #count {
+  font-size: 2rem;
+  padding-top: .7rem;
+  color: #413f3f;
+}
+
+.root .stats .right-side .columns #card3 {
+  background-color: white;
+  height: 11.5rem;
+  width: 17.5rem;
+  margin-bottom: 1rem;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background: url("../resources/home/highlightminswatched_fe52bc4026_ca82eba8b0.svg");
+}
+
+.root .stats .right-side .columns #card3 #heading {
+  padding-top: 2rem;
+  font-size: 1.1rem;
+  color: #292828;
+}
+
+.root .stats .right-side .columns #card3 #count {
+  font-size: 2rem;
+  padding-top: .7rem;
+  color: #413f3f;
+}
+
+.root .stats .right-side .columns #card4 {
+  background-color: white;
+  height: 11.5rem;
+  width: 17.5rem;
+  margin-bottom: 1rem;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background: url("../resources/home/image55.svg");
+}
+
+.root .stats .right-side .columns #card4 #heading {
+  padding-top: 2rem;
+  font-size: 1.1rem;
+  color: #292828;
+}
+
+.root .stats .right-side .columns #card4 #count {
+  font-size: 2rem;
+  padding-top: .7rem;
+  color: #413f3f;
+}
+
+.root .stats .right-side .columns #card5 {
+  background-color: white;
+  height: 11.5rem;
+  width: 17.5rem;
+  margin-bottom: 1rem;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background: url("../resources/home/image69.svg");
+}
+
+.root .stats .right-side .columns #card5 #heading {
+  padding-top: 2rem;
+  font-size: 1.1rem;
+  color: #292828;
+}
+
+.root .stats .right-side .columns #card5 #count {
+  font-size: 2rem;
+  padding-top: .7rem;
+  color: #413f3f;
 }
 /*# sourceMappingURL=home.css.map */

@@ -220,9 +220,9 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        background-color: gray;
         height:40rem;
         align-items: center;
+        padding-top: 8rem;
         
         .left-side{
 
@@ -261,20 +261,53 @@ body{
                 justify-content: center;
                 
                 
-                .card{
+                @mixin card{
                     background-color:rgb(255, 255, 255);
                     height:11.5rem;
                     width:17.5rem;
                     margin-bottom: 1rem;
-                    background: url("../resources/home/highlightgoals_96d24a04e7_a8e8de225d.svg");
                     background-repeat: no-repeat;
                     border-radius: 15px;
+                    
+                    #heading{
+                        padding-top:2rem;
+                        font-size: 1.1rem;
+                        color:rgb(41, 40, 40);
+                    }
 
                     #count{
                         font-size:2rem;
                         padding-top: .7rem;
+                        color:rgb(65, 63, 63);
                     }
                 }
+
+                #card1{
+                    @include card;
+                    background: url("../resources/home/highlightgoals_96d24a04e7_a8e8de225d.svg");
+
+                }
+                #card2{
+                    @include card;
+                    
+                    background: url("../resources/home/highlightlive_b05ed1f073_a8042bd7a8.svg");
+                }
+                #card3{
+                    @include card;
+                    background: url("../resources/home/highlightminswatched_fe52bc4026_ca82eba8b0.svg");
+
+                }
+                #card4{
+                    @include card;
+                    background: url("../resources/home/image55.svg");
+
+                }
+                #card5{
+                    @include card;
+                    background: url("../resources/home/image69.svg");
+
+                }
+                
             }
         }
     }
