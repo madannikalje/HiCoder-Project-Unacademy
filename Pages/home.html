@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/home.css">
-    <script src="https://kit.fontawesome.com/0992e20843.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 
     <title>Unacademy</title>
@@ -17,43 +16,85 @@
     <div class="root">
         <div id="sidebar" class="sidebar">
             <div class="content">
-                <span class="material-icons-outlined" onclick="closeBar()">
+                <span class="material-icons-outlined" onclick="closeBar()" style="cursor: pointer;">
                     close
                 </span>
-                <p id="heading">Login</p>
+                <div id="login">
+                    <p id="heading">Login</p>
 
-                <p id="or">or <a href="">create your account</a></p>
-                <div class="input-box" id="input-box">
-                    <img src="../resources/home/india.svg" alt="" id="country-icon">
-                    <span id="country-code">&nbsp; +91 &nbsp;</span>
-                    <select name="" id="select-box">
-                        <option value="">
-                            IN
-                        </option>
-                        <option value="">
-                            UK
-                        </option>
-                        <option value="">
-                            US
-                        </option>
-                        <option value="">
-                            AFG
-                        </option>
+                    <p id="or">or <a href=""><span id="form-changer" onclick="signupForm()" style="cursor: pointer;">
+                                create your account
+                            </span></a></p>
+                    <div class="input-box" id="input-box">
+                        <img src="../resources/home/india.svg" alt="" id="country-icon">
+                        <span id="country-code">&nbsp; +91 &nbsp;</span>
+                        <select name="" id="select-box">
+                            <option value="">
+                                IN
+                            </option>
+                            <option value="">
+                                UK
+                            </option>
+                            <option value="">
+                                US
+                            </option>
+                            <option value="">
+                                AFG
+                            </option>
 
-                    </select>
+                        </select>
 
-                    <input id="number-input" type="text" placeholder="Enter your mobile number">
+                        <input id="number-input" type="text" placeholder="Enter your mobile number">
+                    </div>
+                    <div class="input-box" style="display: none;" id="email-box">
+
+                        <input id="email-input" type="text" placeholder="Enter your Email ">
+                    </div>
+
+                    <div class="buttons">
+                        <button>
+                            Login
+                        </button>
+                        <a href="" style="cursor: pointer;" onclick="getEmailBox()"><span id="input-changer">Continue
+                                with email</span></a>
+                    </div>
                 </div>
-                <div class="input-box" style="display: none;" id="email-box">
 
-                    <input id="number-input" type="text" placeholder="Enter your mobile number">
-                </div>
+                <div id="signup" style="display: none">
+                    <p id="heading">Join Unacademy</p>
 
-                <div class="buttons">
-                    <button>
-                        Login
-                    </button>
-                    <a href="" onclick="getEmailBox()"><span>Continue with email</span></a>
+                    <p id="or">or <a href=""><span onclick="signupForm()" style="cursor: pointer;">
+                                login to your account
+                            </span></a></p>
+                    <div class="input-box" id="input-box">
+                        <img src="../resources/home/india.svg" alt="" id="country-icon">
+                        <span id="country-code">&nbsp; +91 &nbsp;</span>
+                        <select name="" id="select-box">
+                            <option value="">
+                                IN
+                            </option>
+                            <option value="">
+                                UK
+                            </option>
+                            <option value="">
+                                US
+                            </option>
+                            <option value="">
+                                AFG
+                            </option>
+
+                        </select>
+
+                        <input id="number-input" type="text" placeholder="Enter your mobile number">
+                    </div>
+
+
+                    <div class="buttons" style="justify-content: start;padding-left:60px;">
+                        <button>
+                            Continue
+                        </button>
+
+                    </div>
                 </div>
 
 
