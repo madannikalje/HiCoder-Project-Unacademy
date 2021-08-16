@@ -40,8 +40,8 @@ body {
   right: 0;
   background-color: white;
   padding-top: 60px;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: .5s;
+  transition: .5s;
   box-shadow: -9px 2px 45px -6px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -9px 2px 45px -6px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -9px 2px 45px -6px rgba(0, 0, 0, 0.75);
@@ -226,11 +226,6 @@ body {
   font-size: 1.1rem;
   -webkit-transition: .1s;
   transition: .1s;
-}
-
-.root .heading .navbar nav .login button:hover {
-  -webkit-transform: translate(0px, -10px);
-  transform: translate(0px, -10px);
 }
 
 .root .heading .heading-info {
@@ -709,6 +704,10 @@ body {
 
 .root .footer .column2 #heading {
   font-size: .8rem;
+}
+
+.root .footer .column2 a:link {
+  text-decoration: none;
 }
 
 .root .footer .column3 p {
